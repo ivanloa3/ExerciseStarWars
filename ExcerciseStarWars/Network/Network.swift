@@ -9,15 +9,6 @@
 import Foundation
 import PromiseKit
 
-//enum APIError: Error {
-//  case somethingHappened
-//  var localizedDescription: String {
-//    switch self {
-//    case .somethingHappened: return "Algo salio mal"
-//    }
-//  }
-//}
-
 protocol Network {
   func fetchData<T: Decodable>(url: String, decode: T.Type) -> Promise<T>
 }

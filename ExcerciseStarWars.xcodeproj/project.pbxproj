@@ -117,8 +117,8 @@
 		1709999824017B8100B5B613 /* ExcerciseStarWars */ = {
 			isa = PBXGroup;
 			children = (
+				179307722403548D00AB5E82 /* Modules */,
 				17B1335E24030FC4004A7543 /* Entity */,
-				178A68092402FBBA003CE234 /* InitialLoader */,
 				17B1335624030AAF004A7543 /* Network */,
 				178A680E2402FC99003CE234 /* Common */,
 				179FAB1924017BEF000D965E /* Resources */,
@@ -187,6 +187,14 @@
 				178A68192403080D003CE234 /* InitialLoaderProtocol.swift */,
 			);
 			path = Contract;
+			sourceTree = "<group>";
+		};
+		179307722403548D00AB5E82 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				178A68092402FBBA003CE234 /* InitialLoader */,
+			);
+			path = Modules;
 			sourceTree = "<group>";
 		};
 		179FAB1924017BEF000D965E /* Resources */ = {
