@@ -9,7 +9,6 @@
 import UIKit
 
 class InitialLoaderViewController: UIViewController, Storyboarded {
-  weak var coordinator: MainCoordinator?
   var viewModel: InitialLoaderInputProtocol?
   
   override func viewDidLoad() {

@@ -1,5 +1,5 @@
 //
-//  Constants.swift
+//  ListFilmsProtocol.swift
 //  ExcerciseStarWars
 //
 //  Created by Ivan Erwin Lopez Ansaldo on 2/23/20.
@@ -8,10 +8,7 @@
 
 import Foundation
 
-enum EndPoint {
-  static let films = "https://swapi.co/api/films/"
-}
-
-enum Cell: String {
-  case filmCell
+protocol ListFilmsProtocol {
+  func getNumberOfFilms() -> Int
+  func getTitleFilm(at indexPath: IndexPath) -> String
 }

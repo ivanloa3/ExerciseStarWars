@@ -18,8 +18,18 @@ class MainCoordinator: Coordinator {
 
   func start() {
     let initialLoaderViewController = InitialLoaderViewController.instantiate()
-    initialLoaderViewController.coordinator = self
-    initialLoaderViewController.viewModel = InitialLoaderViewModel()
+    var initialLoaderViewModel = InitialLoaderViewModel()
+    initialLoaderViewModel.coordinator = self
+    initialLoaderViewController.viewModel = initialLoaderViewModel
     navigationController.pushViewController(initialLoaderViewController, animated: false)
+  }
+
+  func displayListFilms(with list: ListFilms) {
+    let listFilmsViewController = ListFilmsViewController.instantiate()
+    var listFilmsViewModel = ListFilmsViewModel()
+    listFilmsViewModel.coordinator = self
+    listFilmsViewModel.film = list.results
+    listFilmsViewController.viewModel = listFilmsViewModel
+    navigationController.pushViewController(listFilmsViewController, animated: true)
   }
 }
