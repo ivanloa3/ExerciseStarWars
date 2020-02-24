@@ -11,7 +11,6 @@
 		1709999C24017B8100B5B613 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1709999B24017B8100B5B613 /* SceneDelegate.swift */; };
 		170999A324017B8100B5B613 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 170999A224017B8100B5B613 /* Assets.xcassets */; };
 		170999A624017B8100B5B613 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 170999A424017B8100B5B613 /* LaunchScreen.storyboard */; };
-		170999B124017B8100B5B613 /* ExcerciseStarWarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170999B024017B8100B5B613 /* ExcerciseStarWarsTests.swift */; };
 		1761EB4E2403866C004E965E /* DetailFilmProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1761EB4D2403866C004E965E /* DetailFilmProtocol.swift */; };
 		1761EB5024038697004E965E /* DetailFilmViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1761EB4F24038697004E965E /* DetailFilmViewModel.swift */; };
 		178A680D2402FC3D003CE234 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178A680C2402FC3D003CE234 /* Main.storyboard */; };
@@ -33,6 +32,10 @@
 		17B1336B24031ADF004A7543 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B1336A24031ADF004A7543 /* Constants.swift */; };
 		17B1336D24032E1B004A7543 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B1336C24032E1B004A7543 /* Character.swift */; };
 		17DD424024038A1F00BAFD1D /* DetailFilmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DD423F24038A1F00BAFD1D /* DetailFilmViewController.swift */; };
+		17DD4242240398A800BAFD1D /* ListFilmViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DD4241240398A800BAFD1D /* ListFilmViewModelTest.swift */; };
+		17DD42452403999400BAFD1D /* ListFilmViewModelMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DD42442403999400BAFD1D /* ListFilmViewModelMock.swift */; };
+		17DD424924039CBE00BAFD1D /* DetailFilmViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DD424824039CBE00BAFD1D /* DetailFilmViewModelTests.swift */; };
+		17DD424B24039CDE00BAFD1D /* DetailFilmViewModelMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DD424A24039CDE00BAFD1D /* DetailFilmViewModelMock.swift */; };
 		CA7298C5B553A332413E977A /* Pods_ExcerciseStarWars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F064E1B5E64CF09514D15B /* Pods_ExcerciseStarWars.framework */; };
 		DF02504B12AE27DC626FBBEA /* Pods_ExcerciseStarWarsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0506311116667684B306B4 /* Pods_ExcerciseStarWarsTests.framework */; };
 /* End PBXBuildFile section */
@@ -57,7 +60,6 @@
 		170999A524017B8100B5B613 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		170999A724017B8100B5B613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		170999AC24017B8100B5B613 /* ExcerciseStarWarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExcerciseStarWarsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		170999B024017B8100B5B613 /* ExcerciseStarWarsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcerciseStarWarsTests.swift; sourceTree = "<group>"; };
 		170999B224017B8100B5B613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1761EB4D2403866C004E965E /* DetailFilmProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFilmProtocol.swift; sourceTree = "<group>"; };
 		1761EB4F24038697004E965E /* DetailFilmViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFilmViewModel.swift; sourceTree = "<group>"; };
@@ -80,6 +82,10 @@
 		17B1336A24031ADF004A7543 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		17B1336C24032E1B004A7543 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		17DD423F24038A1F00BAFD1D /* DetailFilmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFilmViewController.swift; sourceTree = "<group>"; };
+		17DD4241240398A800BAFD1D /* ListFilmViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFilmViewModelTest.swift; sourceTree = "<group>"; };
+		17DD42442403999400BAFD1D /* ListFilmViewModelMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFilmViewModelMock.swift; sourceTree = "<group>"; };
+		17DD424824039CBE00BAFD1D /* DetailFilmViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFilmViewModelTests.swift; sourceTree = "<group>"; };
+		17DD424A24039CDE00BAFD1D /* DetailFilmViewModelMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFilmViewModelMock.swift; sourceTree = "<group>"; };
 		63BCC4CABDE038DBA0ED0EF4 /* Pods-ExcerciseStarWars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExcerciseStarWars.release.xcconfig"; path = "Target Support Files/Pods-ExcerciseStarWars/Pods-ExcerciseStarWars.release.xcconfig"; sourceTree = "<group>"; };
 		9BD53A449490A46B2F69A878 /* Pods-ExcerciseStarWars.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExcerciseStarWars.debug.xcconfig"; path = "Target Support Files/Pods-ExcerciseStarWars/Pods-ExcerciseStarWars.debug.xcconfig"; sourceTree = "<group>"; };
 		A95485B61295C8EC92693CAC /* Pods-ExcerciseStarWarsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExcerciseStarWarsTests.debug.xcconfig"; path = "Target Support Files/Pods-ExcerciseStarWarsTests/Pods-ExcerciseStarWarsTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -141,7 +147,9 @@
 		170999AF24017B8100B5B613 /* ExcerciseStarWarsTests */ = {
 			isa = PBXGroup;
 			children = (
-				170999B024017B8100B5B613 /* ExcerciseStarWarsTests.swift */,
+				17DD424624039C5C00BAFD1D /* ListFilms */,
+				17DD424724039C8900BAFD1D /* DetailFilm */,
+				17DD42432403997900BAFD1D /* Mock */,
 				170999B224017B8100B5B613 /* Info.plist */,
 			);
 			path = ExcerciseStarWarsTests;
@@ -318,6 +326,31 @@
 				1793077024034DBC00AB5E82 /* CharacterRepository.swift */,
 			);
 			path = Repository;
+			sourceTree = "<group>";
+		};
+		17DD42432403997900BAFD1D /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				17DD42442403999400BAFD1D /* ListFilmViewModelMock.swift */,
+				17DD424A24039CDE00BAFD1D /* DetailFilmViewModelMock.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		17DD424624039C5C00BAFD1D /* ListFilms */ = {
+			isa = PBXGroup;
+			children = (
+				17DD4241240398A800BAFD1D /* ListFilmViewModelTest.swift */,
+			);
+			path = ListFilms;
+			sourceTree = "<group>";
+		};
+		17DD424724039C8900BAFD1D /* DetailFilm */ = {
+			isa = PBXGroup;
+			children = (
+				17DD424824039CBE00BAFD1D /* DetailFilmViewModelTests.swift */,
+			);
+			path = DetailFilm;
 			sourceTree = "<group>";
 		};
 		B1E34B9D7656AB89CF2D10DC /* Frameworks */ = {
@@ -537,7 +570,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				170999B124017B8100B5B613 /* ExcerciseStarWarsTests.swift in Sources */,
+				17DD42452403999400BAFD1D /* ListFilmViewModelMock.swift in Sources */,
+				17DD424B24039CDE00BAFD1D /* DetailFilmViewModelMock.swift in Sources */,
+				17DD4242240398A800BAFD1D /* ListFilmViewModelTest.swift in Sources */,
+				17DD424924039CBE00BAFD1D /* DetailFilmViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

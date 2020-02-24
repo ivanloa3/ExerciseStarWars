@@ -9,6 +9,6 @@
 import Foundation
 
 struct CharacterFilm: Decodable {
-  let namee: String
-  let gender: String
+  let name: String?
+  let gender: String?
 }

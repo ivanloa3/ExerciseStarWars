@@ -17,7 +17,7 @@ struct ListFilmsViewModel: ListFilmsProtocol {
   }
 
   func getTitleFilm(at indexPath: IndexPath) -> String {
-    return listFilms[indexPath.row].title
+    return listFilms[indexPath.row].title ?? ""
   }
 
   func navigateToDetailFilm(at indexPath: IndexPath) {

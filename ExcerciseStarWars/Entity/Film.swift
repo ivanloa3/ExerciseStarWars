@@ -9,9 +9,9 @@
 import Foundation
 
 struct Film: Decodable {
-  let episode_id: Int
-  let title: String
-  let opening_crawl: String
-  let director: String
-  let characters: [String]
+  let episode_id: Int?
+  let title: String?
+  let opening_crawl: String?
+  let director: String?
+  let characters: [String]?
 }
