@@ -10,7 +10,7 @@ import UIKit
 
 class ListFilmsViewController: UIViewController, Storyboarded {
   @IBOutlet weak var tableView: UITableView!
-  var viewModel: ListFilmsViewModel?
+  var viewModel: ListFilmsProtocol?
 
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -35,6 +35,7 @@ extension ListFilmsViewController: UITableViewDataSource, UITableViewDelegate {
     return cell
   }
 
-  func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+  func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    viewModel?.navigateToDetailFilm(at: indexPath)
   }
 }

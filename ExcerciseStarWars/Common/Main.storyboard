@@ -92,5 +92,58 @@
             </objects>
             <point key="canvasLocation" x="655" y="129"/>
         </scene>
+        <!--Detail Film View Controller-->
+        <scene sceneID="O2T-Vo-Div">
+            <objects>
+                <viewController storyboardIdentifier="DetailFilmViewController" id="N9c-ag-v6A" customClass="DetailFilmViewController" customModule="ExcerciseStarWars" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="e6P-mf-VaW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="amX-1r-O0y">
+                                <rect key="frame" x="20" y="59" width="374" height="803"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XPE-mN-0gY">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="36"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cyw-2m-Z8o">
+                                        <rect key="frame" x="0.0" y="56" width="374" height="24"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pq2-mH-TP6">
+                                        <rect key="frame" x="0.0" y="100" width="374" height="703"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="amX-1r-O0y" firstAttribute="top" secondItem="xhJ-T1-D6q" secondAttribute="top" constant="15" id="IBb-dE-hcl"/>
+                            <constraint firstItem="xhJ-T1-D6q" firstAttribute="bottom" secondItem="amX-1r-O0y" secondAttribute="bottom" id="ONd-6j-3Jh"/>
+                            <constraint firstItem="xhJ-T1-D6q" firstAttribute="trailing" secondItem="amX-1r-O0y" secondAttribute="trailing" constant="20" id="al0-Fn-0r4"/>
+                            <constraint firstItem="amX-1r-O0y" firstAttribute="leading" secondItem="xhJ-T1-D6q" secondAttribute="leading" constant="20" id="pKd-o8-8Kt"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="xhJ-T1-D6q"/>
+                    </view>
+                    <connections>
+                        <outlet property="descriptionFilm" destination="pq2-mH-TP6" id="VSm-SZ-ggb"/>
+                        <outlet property="directorFilm" destination="cyw-2m-Z8o" id="Iwz-rf-dPP"/>
+                        <outlet property="titleFilm" destination="XPE-mN-0gY" id="GEm-KL-Ynf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ta9-92-VT2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1381.1594202898552" y="129.91071428571428"/>
+        </scene>
     </scenes>
 </document>

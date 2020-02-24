@@ -28,8 +28,17 @@ class MainCoordinator: Coordinator {
     let listFilmsViewController = ListFilmsViewController.instantiate()
     var listFilmsViewModel = ListFilmsViewModel()
     listFilmsViewModel.coordinator = self
-    listFilmsViewModel.film = list.results
+    listFilmsViewModel.listFilms = list.results
     listFilmsViewController.viewModel = listFilmsViewModel
     navigationController.pushViewController(listFilmsViewController, animated: true)
+  }
+
+  func displayDetailFilm(with film: Film) {
+    let detailFilmViewController = DetailFilmViewController.instantiate()
+    var detailFilmViewModel = DetailFilmViewModel()
+    detailFilmViewModel.coordinator = self
+    detailFilmViewModel.film = film
+    detailFilmViewController.viewModel = detailFilmViewModel
+    navigationController.pushViewController(detailFilmViewController, animated: true)
   }
 }

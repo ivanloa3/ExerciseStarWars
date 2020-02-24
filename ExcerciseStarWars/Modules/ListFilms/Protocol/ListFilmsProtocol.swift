@@ -11,4 +11,5 @@ import Foundation
 protocol ListFilmsProtocol {
   func getNumberOfFilms() -> Int
   func getTitleFilm(at indexPath: IndexPath) -> String
+  func navigateToDetailFilm(at index: IndexPath)
 }

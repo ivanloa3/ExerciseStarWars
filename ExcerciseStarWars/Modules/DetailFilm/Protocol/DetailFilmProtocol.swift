@@ -1,5 +1,5 @@
 //
-//  Film.swift
+//  DetailFilmProtocol.swift
 //  ExcerciseStarWars
 //
 //  Created by Ivan Erwin Lopez Ansaldo on 2/23/20.
@@ -8,10 +8,8 @@
 
 import Foundation
 
-struct Film: Decodable {
-  let episode_id: Int
-  let title: String
-  let opening_crawl: String
-  let director: String
-  let characters: [String]
+protocol DetailFilmProtocol {
+  func getTitle() -> String
+  func getDescription() -> String
+  func getDirector() -> String
 }

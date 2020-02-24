@@ -10,13 +10,17 @@ import Foundation
 
 struct ListFilmsViewModel: ListFilmsProtocol {
   var coordinator: MainCoordinator?
-  var film = [Film]()
+  var listFilms = [Film]()
   
   func getNumberOfFilms() -> Int {
-    return film.count
+    return listFilms.count
   }
 
   func getTitleFilm(at indexPath: IndexPath) -> String {
-    return film[indexPath.row].title
+    return listFilms[indexPath.row].title
+  }
+
+  func navigateToDetailFilm(at indexPath: IndexPath) {
+    coordinator?.displayDetailFilm(with: listFilms[indexPath.row])
   }
 }
